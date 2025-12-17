@@ -31,5 +31,6 @@ public class BankWithdrawal{
             System.out.println("Error: "+e.getMessage());
         }catch(WithdrawalMoreThanBalanceError e){
             System.out.println("Error: "+e.getMessage());
+        }
     }
 }
